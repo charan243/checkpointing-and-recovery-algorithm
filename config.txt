@@ -1,0 +1,35 @@
+5 20 100 3 20
+
+0 dc02 12314 # nodeID hostName l i s t e n P o r t
+1 dc03 12315 
+2 dc04 12313
+3 dc05 12312
+4 dc06 12311
+
+1 3 4 # sp a ce d elimi t e d l i s t o f n ei g h b o r s f o r node 0
+0 2 3 4 # sp a ce d elimi t e d l i s t o f n ei g h b o r s f o r node 1
+1 3 # . . . node 2
+0 1 2 4 # . . . node 3
+0 1 3 # . . . node 4
+
+1 3 # nodeID numCheckpoints
+0 2
+1 1
+4 5
+2 2
+0 3
+3 2
+4 4     
+3 5
+1 4
+2 6
+3 5
+
+1 4
+0 5
+4 7
+2 6
+3 5
+0 5
+1 4
+2 8
